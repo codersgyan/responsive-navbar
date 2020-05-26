@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive navbar</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body class="mobile">
+    <nav>
+        <div class="container nav-wrapper">
+            <div class="brand">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                    <path
+                        d="M10.5 10a2.5 2.5 0 1 1-5.001-.001A2.5 2.5 0 0 1 10.5 10zM16 4v12c0 1.1-.9 2-2 2H2c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h12c1.1 0 2 .9 2 2zm-3.5 6a4.5 4.5 0 1 0-9 0 4.5 4.5 0 0 0 9 0zm6.715-4.914L17 6.562v7l2.215 1.477a.505.505 0 0 0 .785-.42V5.506a.505.505 0 0 0-.785-.42z" />
+                </svg>
+                <span><strong>RESPONSIVE NAV</strong></span>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-list">
+                <li class="active">
+                    <a href="#">Home</a>
+                </li>
+                <li><a href="#">About</a></li>
+                <li>
+                    <a href="#">Services</a>
+                    <ul class="dropdown-list">
+                        <li><a href="#">SEO optimisation</a></li>
+                        <li><a href="#">Digital marketing</a></li>
+                        <li><a href="#">Web development</a></li>
+                        <li><a href="#">Web design</a></li>
+                        <li><a href="#">Software development</a></li>
+                        <li><a href="#">Branding</a></li>
+                        <li><a href="#">Content writing</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Q&A</a></li>
+                <li><a href="#">Contact</a></li>
+                <li>
+                    <button class="btn">Login</button>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <section class="header container">
+            <div>
+                <h1>Awesome Responsive Navbar</h1>
+                <h4>Lorem ipsum dolor sit amet consectetur.</h4>
+                <div>
+                    <button class="btn">Watch video now</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
