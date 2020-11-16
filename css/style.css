@@ -222,4 +222,7 @@ nav ul.dropdown-list {
 .mobile .nav-wrapper ul.dropdown-list li a {
     color: var(--dark-gray);
 }
+.mobile .nav-wrapper ul.dropdown-list li a:hover{
+    color: var(--primary);
+}
 
